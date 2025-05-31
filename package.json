@@ -1,0 +1,32 @@
+{
+  "name": "timestamp-cli",
+  "version": "1.0.0",
+  "description": "一个支持微秒级别的时间戳转换CLI工具，默认到毫秒",
+  "main": "index.js",
+  "bin": {
+    "ts": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "timestamp",
+    "cli",
+    "time-conversion",
+    "moment"
+  ],
+  "author": "yellowapple",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "moment-timezone": "^0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/timestamp-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/timestamp-cli/issues"
+  },
+  "homepage": "https://github.com/yourusername/timestamp-cli#readme"
+}
